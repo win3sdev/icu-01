@@ -1,5 +1,5 @@
 import { Toaster } from "react-hot-toast";
-import { ThemeProvider } from "../components/theme-provider";
+import ThemeProvider from "@/components/providers/theme-provider"
 
 export function Providers({ children }: { children: React.ReactNode }) {
   return (
