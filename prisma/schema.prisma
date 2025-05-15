@@ -1,0 +1,39 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// 投稿数据
+model SchoolSurvey {
+  id               Int      @id @default(autoincrement())
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+  province         String
+  city             String
+  district         String
+  schoolName       String
+  grade            String
+  schoolStartTime  String
+  schoolEndTime    String
+  weeklyStudyHours Int
+  monthlyHolidays  Int
+  suicideCases     Int
+  studentComments  String
+  status           String   @default("pending")
+  reviewComment    String?
+  ip               String?
+  userAgent        String?
+}
+
+// 黑名单列表
+model Blacklist {
+  id        Int      @id @default(autoincrement())
+  ip        String
+  userAgent String?
+  reason    String?     // 记录拉黑原因
+  createdAt DateTime @default(now())
+}

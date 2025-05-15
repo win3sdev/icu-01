@@ -1,0 +1,132 @@
+{
+  "metaTitle": "611 Study ICU.",
+  "metaDescription": "611Study refers to the schedule of starting school at 6 a.m. and finishing at 11 p.m., with the phrase \"fall sick, end up in the ICU.\" This has become a widespread and often mandatory routine in many middle and high schools across China. Countless students suffer both physically and mentally under this system. Through this project, we aim to help Chinese students break free from this prison-like schedule and reclaim a healthy, happy childhood.",
+  
+  "navigation": {
+    "submit": "Submit Data",
+    "display": "Display Data",
+    "charts": "Chart display",
+    "map": "Geographical distribution"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "language": {
+    "en": "English",
+    "zh-CN": "简体中文",
+    "zh-TW": "繁體中文"
+  },
+  "site": {
+    "title": "Study ICU",
+    "description": "A modern Next.js application with i18n and theme support"
+  },
+  "form": {
+    "title": "School Information Survey",
+    "description": "Please fill in the following information about your school",
+    "province": {
+      "label": "Province",
+      "placeholder": "Select province",
+      "description": "Province where your school is located"
+    },
+    "city": {
+      "label": "City",
+      "placeholder": "Enter city name",
+      "description": "City address"
+    },
+    "district": {
+      "label": "District",
+      "placeholder": "Enter district name",
+      "description": "District address"
+    },
+    "schoolName": {
+      "label": "School Name",
+      "placeholder": "Enter school name",
+      "description": "Name of your school"
+    },
+    "grade": {
+      "label": "Grade",
+      "placeholder": "Enter your grade",
+      "description": "Your current grade"
+    },
+    "schoolStartTime": {
+      "label": "School Start Time",
+      "description": "Daily school start time"
+    },
+    "schoolEndTime": {
+      "label": "School End Time",
+      "description": "Including evening self-study"
+    },
+    "weeklyStudyHours": {
+      "label": "Weekly Study Hours",
+      "placeholder": "Enter weekly study hours",
+      "description": "Note: Weekly hours, not daily!"
+    },
+    "monthlyHolidays": {
+      "label": "Monthly Holiday Days",
+      "placeholder": "Enter monthly holiday days",
+      "description": "Number of holiday days per month"
+    },
+    "suicideCases": {
+      "label": "Student Suicide Cases in 2024",
+      "placeholder": "Enter number",
+      "description": "Cases of students under extreme pressure"
+    },
+    "studentComments": {
+      "label": "Student Comments",
+      "placeholder": "Enter your comments",
+      "description": "Share your thoughts about mental health pressure at your school"
+    },
+    "submit": "Submit Survey",
+    "submitting": "Submitting...",
+    "success": "Survey submitted successfully!",
+    "error": "Error submitting survey. Please try again."
+  },
+  "display": {
+    "title": "School Information Survey",
+    "viewDetails": "View Details",
+    "noData": "No Data Available",
+    "province": "Province",
+    "city": "City",
+    "district": "District",
+    "schoolName": "School Name",
+    "grade": "Grade",
+    "studentComments": "Student Comments",
+    "weeklyStudyHours": "Weekly Study Hours in School",
+    "monthlyHolidays": "Monthly Holiday Days",
+    "suicideCases": "2024 Student Suicide Cases",
+    "createdAt": "Submission Time",
+    "schoolStartTime": "School Start Time",
+    "schoolEndTime": "School End Time",
+    "location": "Geographical Location",
+    "schoolSchedule": "School Schedule",
+    "statistics": "Statistics",
+    "pagination": {
+      "prev": "Previous Page",
+      "next": "Next Page",
+      "page": "Page {page}",
+      "of": "of {total} pages",
+      "showing": "Showing {start}-{end} items, total {total} items"
+    },
+    "filter": {
+      "placeholder": "Enter Filter Conditions",
+      "min": "Minimum Value",
+      "max": "Maximum Value",
+      "apply": "Apply Filter",
+      "clear": "Clear Filters"
+    }
+  },
+  "charts": {
+    "title": "Data Statistics Charts",
+    "gradeDistribution": "Grade Distribution",
+    "monthlyHolidays": "Monthly Holidays Distribution",
+    "schoolStartTime": "School Start Time Distribution",
+    "schoolEndTime": "School End Time Distribution"
+  },
+  "map": {
+    "locate": "Locate",
+    "reset": "Reset",
+    "placeholder": "Map will be displayed here"
+  }
+  
+} 

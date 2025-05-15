@@ -1,0 +1,130 @@
+{
+  "metaTitle": "611 Study ICU.",
+  "metaDescription": "611Study 指的是早上6點上學、晚上11點放學，並伴隨「生病、進ICU」的說法。這已成為中國許多初中和高中的普遍且強制性的作息安排。無數學生因此承受著身心雙重的折磨。我們希望透過這個項目，幫助中國的學生擺脫這種連監獄都不如的作息時間，擁有一個健康快樂的童年。",
+  "navigation": {
+    "submit": "內容提交",
+    "display": "內容展示",
+    "charts": "圖表展示",
+    "map": "地理位置分佈"
+  },
+  "theme": {
+    "light": "淺色",
+    "dark": "深色"
+  },
+  "language": {
+    "en": "English",
+    "zh-CN": "简体中文",
+    "zh-TW": "繁體中文"
+  },
+  "site": {
+    "title": "Study ICU",
+    "description": "歡迎使用我們的現代化 Next.js 應用，支持國際化和主題切換。"
+  },
+  "form": {
+    "title": "學校資訊調查表",
+    "description": "請填寫以下關於您所在學校的信息",
+    "province": {
+      "label": "省份",
+      "placeholder": "請選擇省份",
+      "description": "所反映的學校所在省份"
+    },
+    "city": {
+      "label": "城市",
+      "placeholder": "請輸入城市名稱",
+      "description": "城市地址"
+    },
+    "district": {
+      "label": "區縣",
+      "placeholder": "請輸入區縣名稱",
+      "description": "區縣地址"
+    },
+    "schoolName": {
+      "label": "學校名稱",
+      "placeholder": "請輸入學校名稱",
+      "description": "學校名稱"
+    },
+    "grade": {
+      "label": "年級",
+      "placeholder": "請輸入您的年級",
+      "description": "您的年級"
+    },
+    "schoolStartTime": {
+      "label": "上學時間",
+      "description": "日常上學時間"
+    },
+    "schoolEndTime": {
+      "label": "放學時間",
+      "description": "含晚自習"
+    },
+    "weeklyStudyHours": {
+      "label": "每週在校學習小時數",
+      "placeholder": "請輸入每週學習小時數",
+      "description": "請注意是每週！不是每天"
+    },
+    "monthlyHolidays": {
+      "label": "每月假期天數",
+      "placeholder": "請輸入每月假期天數",
+      "description": "每月放假的天數"
+    },
+    "suicideCases": {
+      "label": "2024年學生自殺數",
+      "placeholder": "請輸入數字",
+      "description": "您的學校是否有學生心理壓力過大甚至選擇輕生的情況"
+    },
+    "studentComments": {
+      "label": "學生評論",
+      "placeholder": "請輸入您的評論",
+      "description": "您的學校是否有學生心理壓力過大甚至選擇輕生的情況"
+    },
+    "submit": "提交調查",
+    "submitting": "提交中...",
+    "success": "提交成功！",
+    "error": "提交失敗，請重試。"
+  },
+  "display": {
+    "title": "學校信息調查表",
+  "viewDetails": "查看詳情",
+  "noData": "暫無數據",
+  "province": "省份",
+  "city": "城市",
+  "district": "區縣",
+  "schoolName": "學校名稱",
+  "grade": "年級",
+  "studentComments": "學生評論",
+  "weeklyStudyHours": "每週在校學習小時數",
+  "monthlyHolidays": "每月假期天數",
+  "suicideCases": "2024年學生自殺數",
+  "createdAt": "提交時間",
+  "schoolStartTime": "上學時間",
+  "schoolEndTime": "放學時間",
+  "location": "地理位置",
+  "schoolSchedule": "作息時間",
+  "statistics": "統計數據",
+  "pagination": {
+    "prev": "上一頁",
+    "next": "下一頁",
+    "page": "第 {page} 頁",
+    "of": "共 {total} 頁",
+    "showing": "顯示 {start}-{end} 條，共 {total} 條"
+  },
+  "filter": {
+    "placeholder": "輸入篩選條件",
+    "min": "最小值",
+    "max": "最大值",
+    "apply": "應用篩選",
+    "clear": "清除篩選"
+  }
+},
+  "map": {
+    "locate": "定位",
+    "reset": "重置",
+    "placeholder": "地圖將在這裡顯示"
+  },
+  "charts": {
+    "title": "數據統計圖表",
+    "gradeDistribution": "年級分佈",
+    "monthlyHolidays": "每月假期天數分佈",
+    "schoolStartTime": "上學時間分佈",
+    "schoolEndTime": "放學時間分佈"
+  }
+} 
