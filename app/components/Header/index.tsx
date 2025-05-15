@@ -13,13 +13,16 @@ import {
   MapIcon,
   GlobeAltIcon,
 } from "@heroicons/react/24/outline";
-import ThemeSwitcher from "../ThemeSwitcher";
-import LanguageSwitcher from "../LanguageSwitcher";
-import { GithubIcon } from "../Icons";
+import ThemeSwitcher from "@/app/components/ThemeSwitcher";
+import LanguageSwitcher from "@/app/components/LanguageSwitcher";
+import { GithubIcon } from "@/app/components/Icons";
 
 export default function Header() {
   const t = useTranslations();
   const pathname = usePathname();
+  if (!pathname) {
+    throw new Error("Pathname is not available");
+  }
   const locale = pathname.split("/")[1];
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
