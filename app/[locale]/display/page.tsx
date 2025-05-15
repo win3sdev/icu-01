@@ -132,7 +132,9 @@ export default function DisplayPage() {
       const queryString = buildQueryString(page);
       const res = await fetch(`/api/schools?${queryString}`);
       const json = await res.json();
-      if (json.error) throw new Error(json.error);
+      if (json.error) {
+        throw new Error(json.error);
+      }
       console.log(json);
       setData(json.data);
       setPagination(json.pagination);
