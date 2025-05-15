@@ -13,6 +13,9 @@ export default function LanguageSwitcher() {
   const [isOpen, setIsOpen] = useState(false)
   const dropdownRef = useRef<HTMLDivElement>(null)
 
+  if (!pathname) {
+    throw new Error("Pathname is not available");
+  }
   const currentLocale = pathname.split('/')[1]
 
   // 处理点击外部关闭下拉菜单
